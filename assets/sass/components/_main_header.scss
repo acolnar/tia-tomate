@@ -1,0 +1,12 @@
+.main_header{
+  @extend .container;
+
+  &__link{
+    display: block;
+    height: 50px;
+  }
+
+  &__img{
+    height: 100%;
+  }
+}

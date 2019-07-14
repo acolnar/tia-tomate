@@ -1,0 +1,28 @@
+.product{
+  csolor: $granite-gray;
+  padding: 3em;
+
+  &__img{
+    max-width: 100%;
+  }
+
+  &__title{
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  &__text{
+    max-width: 700px;
+    margin:{
+      left: auto;
+      right: auto;
+    }
+    font-weight: 200;
+  }
+  &--gray{
+    @extend .product;
+    background-color: $granite-gray;
+    color: $white-color;
+  }
+}
